@@ -4,6 +4,16 @@ body {
   background-color: rgb(247, 201, 201);
 }
 
+h1{
+    font-family: "Playwrite HU", cursive;
+    margin-left: 33px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: rgb(125, 22, 229);
+    text-align: center;
+}
+
+
 div {
   display: inline-block;
   margin-left: 10px;
