@@ -6,8 +6,15 @@ pokemonImg =
 let container = document.querySelector(".container");
 
 for (let index = 1; index <= 151; index++) {
+  let pokemonBox = document.createElement("div");
   let pokemon = document.createElement("img");
-  pokemon.src = `${pokemonImg}${index}.png`;
+  let number = document.createElement("span");
 
-  container.append(pokemon);
+  pokemon.src = `${pokemonImg}${index}.png`;
+  number.append(index);
+
+  pokemonBox.append(pokemon);
+  pokemonBox.append(number);
+
+  container.append(pokemonBox);
 }

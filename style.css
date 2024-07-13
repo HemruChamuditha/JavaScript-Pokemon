@@ -1,4 +1,21 @@
 body {
   margin: 0;
   padding: 23px 35px;
+  background-color: rgb(247, 201, 201);
+}
+
+div {
+  display: inline-block;
+  margin-left: 10px;
+  
+}
+
+img{
+    display: block;
+}
+span{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
 }
